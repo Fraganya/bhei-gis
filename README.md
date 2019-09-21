@@ -18,19 +18,28 @@ productive work.
 
 ## Samples
 
+### Initial View
 ![ screenshot ](screenshots/2.png)
 
+
+### Focused View on Institution
 ![ screenshot ](screenshots/3.png)
 
+
+### Satelite view layer
 ![ screenshot ](screenshots/4.png)
 
-![ screenshot ](screenshots/6.png)
 
-![ screenshot ](screenshots/7.png)
+### Arcmap view - raw map
+![ screenshot ](screenshots/6.jpg)
+
+
+### Arcmap view - full extent
+![ screenshot ](screenshots/7.jpg)
 
 ## Playing around | Installation 
 
-###clone this repo <br>
+### clone this repo <br>
 `` git clone https://github.com/Fraganya/bhei-gis ``
 
 
