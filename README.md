@@ -1,5 +1,5 @@
 # bhei-gis
-A GIS Web deployment for Blantyre Higher Education and Training Institutions data. 
+A GIS Web deployment for Blantyre Higher Education and Training Institutions data based on [leaflet.js](https://leafletjs.com/). 
 It showcases available institutions in Blantyre together with their details.
 
 # Introduction
