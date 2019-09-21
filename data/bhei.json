@@ -1,0 +1,410 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+        }
+    },
+    "features": [{
+        "type": "Feature",
+        "properties": {
+            "Name": "The University of Malawi, the Polytechnic",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>The University of Malawi, the Polytechnic</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>0</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>1</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>The University of Malawi, the Polytechnic</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.027047</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.801471</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chipembere Highway</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 871 637</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>principal@poly.ac.mw</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>Private Bag 303, BT 3</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>400,000 per year</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Engeneering (Hons), Commerce, Built Environment(hons), Applied Sciences</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.027047, -15.801471, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "The Polytechnic Management Development Centre (MDC)",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>The Polytechnic Management Development Centre (MDC)</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>1</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>2</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>The Polytechnic Management Development Centre (MDC)</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.026646</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.798707</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Ali Hassan Mwinyi</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 870 411</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>mdc@poly.ac.mw</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>Private Bag 303, BT 4</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>150000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Business Management, Business Management &amp; Human Resources, Business Management &amp; Marketing, Banking, Insurance</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>PC</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.026646, -15.798707, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "The Polytechnic Continuing Education Center (CEC)",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>The Polytechnic Continuing Education Center (CEC)</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>2</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>3</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>The Polytechnic Continuing Education Center (CEC)</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.02784</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.801512</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chipembere Highway</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 870 411</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td></td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>Private Bag 303, Blantyre 4</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>150,000 per semester, students to pay examination fees</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Community Development levels 4, 5,6, Human Resource Management, Business Management, Secretarial Administration, Journalism and Media Studies, Computing and Information System, Graphics and Media Studies, Certificate in Financial Accounting</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.02784, -15.801512, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "National College of Information Technology",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>National College of Information Technology</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>3</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>4</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>National College of Information Technology</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.046154</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.802573</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Livingstone Ave</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 870 411</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>nacitbt@globemw.net</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>P.O Box 30319, Chichiri,Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>400000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Computing level 4 &amp; 5, Business Information Technology level 4 &amp; 5, Bsc in Computing</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.046154, -15.802573, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Malawi College of accountancy",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Malawi College of accountancy</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>4</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>5</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Malawi College of accountancy</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.025019</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.802516</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chipembere Highway</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 871411</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>mcabt@globemw.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>P.O Box 30644, Chichiri, Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>900,000 per year</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Applied Accounting, Auditing, Business Management and Enterpreneurship, Marketing and Public Relations, Management Information Systems, Banking and Financial Services, Human Resources and  industrial Relations</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.025019, -15.802516, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Blantyre international university",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Blantyre international university</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>5</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>6</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Blantyre international university</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>34.996986</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.746964</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Naperi</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 1162354</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>info@biu-edu.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>Private Bag 98, Blatyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>700,000 per year</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Accounting and Finance, Actuarial Science, Banking and Finance, Business Administration, Economics, Entrepreneurship, Community and Development, Guidance and Counselling, Hotel Management, IT, Journalism and Law</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [34.996986, -15.746964, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Sanwecka",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Sanwecka</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>6</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>7</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Sanwecka</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.03039</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.799875</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Trade Fair</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)99484949</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>sanwecka@gmail.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>Private Bag 3498, Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>75,000 five weeks</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>TEVETA certificate in computing, Phone Repairing</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>PC</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.03039, -15.799875, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "College of medicine",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>College of medicine</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>7</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>8</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>College of medicine</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.0158</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.801815</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chipembere Highway</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 871 911</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>registrar@medcol.mw</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>Private Bag 360, Chichiri, Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>550,000 premaid, 350,000 continuing students</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Degree in Surgery, Bsc ib Medical Laboratory Pharmacy, Physiotherapy(HONS)</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.0158, -15.801815, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Malawi College Health Science",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Malawi College Health Science</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>8</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>9</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Malawi College Health Science</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.024499</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.801665</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chipembere Highway</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 11870566</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>mchsbt@malawi.net</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>Private Bag 396, Chichiri,  Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>govt sponsorship 180,000 per year, self sponsorship 500,000, residential 880,000 per year</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Diploma in Clinical Medicine, Certificate in Nursing and Midwifery</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.024499, -15.801665, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Kamuzu college of nursing",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Kamuzu college of nursing</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>9</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>10</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Kamuzu college of nursing</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.02073</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.718276</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Queen Elizabeth Hospital</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 751622</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>principal@kcn.unima.mw</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>P.O Box 415, Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>400, 000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Adult Health Nursing, Child Health Nursing, Community  Health Nursing, Mental Health and Psychiatic Nursing, Nursing and Midwifery,</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.02073, -15.718276, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Malawi institute of tourism",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Malawi institute of tourism</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>11</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>12</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Malawi institute of tourism</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.003441</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.785675</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chilembwe road</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 821866</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>happie.tama@gmail.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>PO BOX 2673, Blantyre, Malawi</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>480,000,</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Adminstrative and Secretarial Studies, Information and Communication Technology, Textile and Design, Electrical Engineering</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.003441, -15.785675, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Blantyre Institute of management",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Blantyre Institute of management</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>12</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>13</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Blantyre Institute of management</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.040939</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.805071</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chipembere highway</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1 874941</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>bcmbtb@yahoo.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>P.0 BOX 60488, Chichiri,Blantyre, Malawi</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>300000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Hotel Operations, Travel and tourism management,  Hospitality Management, IATA/AFTAA n Proffessional Cookery</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.040939, -15.805071, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "PACT",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>PACT</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>13</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>14</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>PACT</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.050762</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.828227</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Limbe, Kenyatta Drive</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)111556073</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>admissions@pactshoolsmw.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>PO BOX 1651, Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>300000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Business Management, Human Resources, Marketing</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.050762, -15.828227, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Blantyre Teachers college (BTC)",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Blantyre Teachers college (BTC)</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>14</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>15</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Blantyre Teachers college (BTC)</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.037992</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.832226</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Soche</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)995365269</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>registrar@btc.mw</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>P/BAG 502, Blantyre, Malawi</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>105,000 per year</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Banking, Human Resources, Marketing, Community Development, Procurement and Supply, Accounting</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.037992, -15.832226, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Soche Technical college",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Soche Technical college</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>15</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>16</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Soche Technical college</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.045415</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.817595</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Limbe , Chinyonga</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)111403166</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>principal@sochetech.org</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>P/BAG 515, Limbe</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>250000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Education</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.045415, -15.817595, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Kings and Angels – school of designs and tailoring",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Kings and Angels – school of designs and tailoring</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>16</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>17</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Kings and Angels – school of designs and tailoring</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.030506</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.79994</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Trade Fair</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265) 11140316</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td></td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td></td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>75000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>TEVETA Designing and Tailoring</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>PC</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.030506, -15.79994, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "University of Blantyre Synod",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>University of Blantyre Synod</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>17</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>18</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>University of Blantyre Synod</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.021119</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.78468</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Hetherwick House, Blantyre</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)999913762</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>info@ubsmw.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>PO BOX 413, Blantyre</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>masters 600,000, degree 400,000 per semester</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Arts and Theology, Commerce</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.021119, -15.78468, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "Beehive",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>Beehive</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>18</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>19</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>Beehive</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>34.975924</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.77448</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chilomoni</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)111914756</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>info@beehevimw.org</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>PO BOX 1668, Chilomoni, Blantyre, Malawi</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>300000</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Tailoring and knitwear Training, Design and Construction, IT System support, Financial Accounting, CompTia Networking</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [34.975924, -15.77448, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "MIJ",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>MIJ</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>19</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>20</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>MIJ</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.00507</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.810496</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Chitawira</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)888664131</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>info@mijmw.com</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>PO BOX 30165, Blantyre 3</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>560 per year</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Journalism</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.00507, -15.810496, 0]
+        }
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Name": "LUANAR blantyre campus ODL",
+            "description": "<html xmlns:fo=\"http://www.w3.org/1999/XSL/Format\" xmlns:msxsl=\"urn:schemas-microsoft-com:xslt\">\n\n<head>\n\n<META http-equiv=\"Content-Type\" content=\"text/html\">\n\n<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">\n\n</head>\n\n<body style=\"margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;\">\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px\">\n\n<tr style=\"text-align:center;font-weight:bold;background:#9CBCE2\">\n\n<td>LUANAR blantyre campus ODL</td>\n\n</tr>\n\n<tr>\n\n<td>\n\n<table style=\"font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px\">\n\n<tr>\n\n<td>FID</td>\n\n<td>20</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>OBJECT_ID</td>\n\n<td>21</td>\n\n</tr>\n\n<tr>\n\n<td>INSTITUTIO</td>\n\n<td>LUANAR blantyre campus ODL</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>DEC_LONG</td>\n\n<td>35.004219</td>\n\n</tr>\n\n<tr>\n\n<td>DEC_LAT</td>\n\n<td>-15.788831</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INST_LOCAT</td>\n\n<td>Blantyre, township</td>\n\n</tr>\n\n<tr>\n\n<td>PHONE</td>\n\n<td>(+265)1277222</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>EMAIL</td>\n\n<td>odl@bunda.luanar.mw</td>\n\n</tr>\n\n<tr>\n\n<td>INS_ADDRES</td>\n\n<td>PO BOX 219, Lilongwe</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>INS_FEES</td>\n\n<td>300,000 per year</td>\n\n</tr>\n\n<tr>\n\n<td>EDU_DOMAIN</td>\n\n<td>Agribusiness Management, Agricultural Extension, Agricultural Economics, Agricultural Extensions,</td>\n\n</tr>\n\n<tr bgcolor=\"#D4E4F3\">\n\n<td>Tool</td>\n\n<td>GM</td>\n\n</tr>\n\n</table>\n\n</td>\n\n</tr>\n\n</table>\n\n</body>\n\n</html>\n\n",
+            "timestamp": null,
+            "begin": null,
+            "end": null,
+            "altitudeMode": "clampToGround",
+            "tessellate": -1,
+            "extrude": 0,
+            "visibility": -1,
+            "drawOrder": null,
+            "icon": null,
+            "snippet": ""
+        },
+        "geometry": {
+            "type": "Point",
+            "coordinates": [35.004219, -15.788831, 0]
+        }
+    }]
+}

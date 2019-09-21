@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BHEI | GIS</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin="" />
+
+    <!-- Make sure you put this AFTER Leaflet's CSS -->
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js" integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og==" crossorigin=""></script>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free-5.8.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/Leaflet.awesome-markers-2.0-develop/dist/leaflet.awesome-markers.css">
+    <link rel="stylesheet" href="assets/vendor/Leaflet.ZoomBox-master/L.Control.ZoomBox.css">
+
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+    <link rel="stylesheet" href="assets/vendor/Leaflet.MousePosition-master/src/L.Control.MousePosition.css">
+    <link rel="stylesheet" href="assets/vendor/leaflet-sidebar-master/src/L.Control.Sidebar.css">
+    <link rel="stylesheet" href="assets/vendor/Leaflet.EasyButton-master/src/easy-button.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-custom rad-0" role="navigation" style="margin-bottom:0px;">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-nav">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <i class="fa fa-map"></i>&nbsp;BHEI <span>GIS</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse main-nav">
+                 <ul class="nav navbar-nav navbar-right">
+                   <a href="#members" data-toggle="modal" class="navbar-text" style="color:#fff;text-decoration:none;"><small><i class="fa fa-copyright"></i>&nbsp;UNIMA POLY BIS-4/G4 2019</small></a>
+            </ul>
+                
+            </div><!-- /.main-nav -->
+        </div>
+    </nav><!-- ./nav -->
+
+   <!-- map container-->
+    <div class="">
+        <div class="custom-popup" id="mapid"></div>
+    </div> <!-- ./ map container -->
+    
+    
+    <div class="container-fluid" style=margin-top:0px;>
+        <hr style="margin-top:2px;margin-bottom:2px;border-color:red;">
+        <div class="text-center">
+            &copy;&nbsp;<small>
+            UNIMA Poly BIS-GIS GROUP-4 &middot;2019&middot;
+            &nbsp; <i class="fa fa-phone"></i>
+            &nbsp;Contact 0882370345&nbsp;
+            <i class="fa fa-inbox"></i>&nbsp;bis14-fganya@poly.ac.mw
+            </small>
+        </div>
+    </div><!-- ./ footer-->
+
+    <div id="sidebar">
+        <h1>leaflet-sidebar</h1>
+    </div> <!-- ./ sidebar container -->
+    
+    <!-- members  modal-->
+      <div class="modal fade" id="members">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"><i class="fa fa-users"></i>&nbsp;Members</h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table-striped table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Student</th>
+                                <th>Reg #</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Abigail Mwale</td>
+                                <td>BIS/14/NE/026</td>
+                            </tr><!-- ./ student -->
+                            <tr>
+                                <td>2</td>
+                                <td>Angella Kamera</td>
+                                <td>BIS/14/NE/010</td>
+                            </tr><!-- ./ student -->
+                             <tr>
+                                <td>3</td>
+                                <td>Before Ndakwera</td>
+                                <td>BIS/13/PE/023</td>
+                            </tr><!-- ./ student -->
+                             <tr>
+                                <td>4</td>
+                                <td>Francis Ganya</td>
+                                <td>BIS/14/NE/004</td>
+                            </tr><!-- ./ student -->
+                        </tbody>
+                    </table>
+            
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div><!-- ./zoom model window -->
+    
+    
+    <!-- ./ members modal -->
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/vendor/Leaflet.awesome-markers-2.0-develop/dist/leaflet.awesome-markers.js"></script>
+    <script src="assets/vendor/Leaflet.ZoomBox-master/L.Control.ZoomBox.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <script src="assets/vendor/Leaflet.MousePosition-master/src/L.Control.MousePosition.js"></script>
+    <script src="assets/vendor/leaflet-sidebar-master/src/L.Control.Sidebar.js"></script>
+    <script src="assets/vendor/Leaflet.EasyButton-master/src/easy-button.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script>
+        var insititionsLyr = L.layerGroup();
+
+        //load a tile layers for OSM from mapbox - streets and satelite
+        var osmStreets = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.streets',
+            accessToken: ''
+        });
+
+        var osmSatellite = L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+            maxZoom: 18,
+            id: 'mapbox.satellite',
+            accessToken: 'pk.eyJ1IjoiZnJhZ2FueWEiLCJhIjoiY2p5dnYyZDVtMHJkZTNtbjQ0Y2JpaXM3NiJ9.c0B3BYbiaqvCAvPLlouN2g'
+        })
+
+
+
+        var sidebar = L.control.sidebar('sidebar', {
+            position: 'right',
+        });
+
+
+
+        var promise = $.getJSON('data/bhei.geojson'); //load the bhei geojson data
+        promise.then(function(data) {
+
+            //create custom icon for points of interest
+            var institutionIcon = L.AwesomeMarkers.icon({
+                prefix: "fa",
+                markerColor: "purple", //red, darkred, orange, green, darkgreen, blue, purple, darkpuple, cadetblue ,
+                icon: "graduation-cap"
+            });
+
+
+            var institutions = L.geoJson(data, {
+                pointToLayer: function(feature, latlng) {
+                    return L.marker(latlng, {
+                        icon: institutionIcon
+                    }).on('mouseover', function() {
+                        this.bindPopup("<h4>" + feature.properties.INSTITUTIO + "</h4>", {
+                            closeButton: false
+                        }).openPopup();
+                    }).on('click', function() {
+                        showSidebar(feature);
+                    });
+                }
+            });
+
+            //create layers for layer control
+            var baseLayers = {
+                'Streets': osmStreets,
+                'Satellite': osmSatellite
+            };
+
+            var overlays = {
+                "Institutions": institutions
+            }
+
+            //initialize map
+            var bheimap = L.map('mapid', {
+                center: [-15.78611, 35.005833], //zoom osm to blantyre coordinates
+                zoom: 14,
+                layers: [osmStreets, institutions]
+            });
+
+            //zoom map to extent of institutions layer
+            bheimap.fitBounds(institutions.getBounds(), {
+                padding: [50, 50]
+            });
+
+            //add controls
+
+            // - add layer toggler control
+            L.control.layers(baseLayers, overlays).addTo(bheimap);
+
+            // - add zoombox control with options
+            var options = {
+                modal: true,
+                title: "Box area zoom"
+            };
+            var control = L.control.zoomBox(options);
+            bheimap.addControl(control);
+
+            // - add fullscreen control
+            bheimap.addControl(new L.Control.Fullscreen());
+
+            // - add mouse position control
+            L.control.mousePosition().addTo(bheimap);
+
+
+            // - add sidebar control
+            bheimap.addControl(sidebar);
+
+            // - add zoom to institutions extent eazybutton control
+            L.easyButton('fa fa-dot-circle', function() {
+                bheimap.fitBounds(institutions.getBounds(), {
+                    padding: [50, 50]
+                });
+            }).addTo(bheimap);
+
+
+            // register toggler to hide sidebar when map is clicked
+            bheimap.on('click', function() {
+                sidebar.hide();
+            })
+        });
+
+
+        // @brief - recieves a feature and display spatial attributes in a sidebar
+        function showSidebar(feature) {
+            var htmlMarkup = "<h4>" + feature.properties.INSTITUTIO + "</h4><br>";
+            htmlMarkup += "<table class='table table-striped'>";
+            htmlMarkup += "<tbody>";
+
+            htmlMarkup += "<tr>";
+            htmlMarkup += "<td>Location</td>";
+            htmlMarkup += "<td>" + feature.properties.INST_LOCAT + "</td>";
+            htmlMarkup += "</tr>";
+
+            htmlMarkup += "<tr>";
+            htmlMarkup += "<td>Email</td>";
+            htmlMarkup += "<td>" + feature.properties.EMAIL + "</td>";
+            htmlMarkup += "</tr>";
+
+            htmlMarkup += "<tr>";
+            htmlMarkup += "<td>Phone</td>";
+            htmlMarkup += "<td>" + feature.properties.PHONE + "</td>";
+            htmlMarkup += "</tr>";
+
+            htmlMarkup += "<tr>";
+            htmlMarkup += "<td>Postal Addr</td>";
+            htmlMarkup += "<td>" + feature.properties.INS_ADDRES + "</td>";
+            htmlMarkup += "</tr>";
+
+            htmlMarkup += "<tr>";
+            htmlMarkup += "<td>Fess</td>";
+            htmlMarkup += "<td>" + feature.properties.INS_FEES + "</td>";
+            htmlMarkup += "</tr>";
+
+
+            htmlMarkup += "</tbody>";
+            htmlMarkup += "</table>";
+
+            //convert the comma delimitted programs into an array
+            var programs = feature.properties.EDU_DOMAIN.toString().split(',');
+
+            htmlMarkup += "<br>Programs<br>";
+
+            htmlMarkup += "<table class='table table-striped'>";
+
+            htmlMarkup += "<table class='table table-striped'>";
+            htmlMarkup += "<tbody>";
+
+            for (var index = 0; index < programs.length; index++) {
+                htmlMarkup += "<tr>";
+                htmlMarkup += "<td>" + programs[index] + "</td>";
+                htmlMarkup += "</tr>";
+            }
+
+            htmlMarkup += "</tbody>";
+            htmlMarkup += "</table>";
+
+
+            sidebar.setContent(htmlMarkup);
+            sidebar.show();
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,540 @@
+{
+  "displayFieldName" : " ",
+  "fieldAliases" : {
+    "FID" : "FID",
+    "OBJECTID" : "OBJECTID",
+    "OBJECT_ID" : "OBJECT_ID",
+    "INSTITUTIO" : "INSTITUTIO",
+    "DEC_LONG" : "DEC_LONG",
+    "DEC_LAT" : "DEC_LAT",
+    "INST_LOCAT" : "INST_LOCAT",
+    "PHONE" : "PHONE",
+    "EMAIL" : "EMAIL",
+    "INS_ADDRES" : "INS_ADDRES",
+    "INS_FEES" : "INS_FEES",
+    "EDU_DOMAIN" : "EDU_DOMAIN",
+    "Tool" : "Tool"
+  },
+  "geometryType" : "esriGeometryPoint",
+  "spatialReference" : {
+    "wkid" : null
+  },
+  "fields" : [
+    {
+      "name" : "FID",
+      "type" : "esriFieldTypeOID",
+      "alias" : "FID"
+    },
+    {
+      "name" : "OBJECTID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "OBJECTID"
+    },
+    {
+      "name" : "OBJECT_ID",
+      "type" : "esriFieldTypeInteger",
+      "alias" : "OBJECT_ID"
+    },
+    {
+      "name" : "INSTITUTIO",
+      "type" : "esriFieldTypeString",
+      "alias" : "INSTITUTIO",
+      "length" : 254
+    },
+    {
+      "name" : "DEC_LONG",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "DEC_LONG"
+    },
+    {
+      "name" : "DEC_LAT",
+      "type" : "esriFieldTypeDouble",
+      "alias" : "DEC_LAT"
+    },
+    {
+      "name" : "INST_LOCAT",
+      "type" : "esriFieldTypeString",
+      "alias" : "INST_LOCAT",
+      "length" : 254
+    },
+    {
+      "name" : "PHONE",
+      "type" : "esriFieldTypeString",
+      "alias" : "PHONE",
+      "length" : 254
+    },
+    {
+      "name" : "EMAIL",
+      "type" : "esriFieldTypeString",
+      "alias" : "EMAIL",
+      "length" : 254
+    },
+    {
+      "name" : "INS_ADDRES",
+      "type" : "esriFieldTypeString",
+      "alias" : "INS_ADDRES",
+      "length" : 254
+    },
+    {
+      "name" : "INS_FEES",
+      "type" : "esriFieldTypeString",
+      "alias" : "INS_FEES",
+      "length" : 254
+    },
+    {
+      "name" : "EDU_DOMAIN",
+      "type" : "esriFieldTypeString",
+      "alias" : "EDU_DOMAIN",
+      "length" : 254
+    },
+    {
+      "name" : "Tool",
+      "type" : "esriFieldTypeString",
+      "alias" : "Tool",
+      "length" : 254
+    }
+  ],
+  "features" : [
+    {
+      "attributes" : {
+        "FID" : 0,
+        "OBJECTID" : 1,
+        "OBJECT_ID" : 1,
+        "INSTITUTIO" : "The University of Malawi, the Polytechnic",
+        "DEC_LONG" : 35.027047000000003,
+        "DEC_LAT" : -15.801470999999999,
+        "INST_LOCAT" : "Chipembere Highway",
+        "PHONE" : "(+265)1 871 637",
+        "EMAIL" : "principal@poly.ac.mw",
+        "INS_ADDRES" : "Private Bag 303, BT 3",
+        "INS_FEES" : "400,000 per year",
+        "EDU_DOMAIN" : "Engeneering (Hons), Commerce, Built Environment(hons), Applied Sciences",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.027047000000003,
+        "y" : -15.801470999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 1,
+        "OBJECTID" : 2,
+        "OBJECT_ID" : 2,
+        "INSTITUTIO" : "The Polytechnic Management Development Centre (MDC)",
+        "DEC_LONG" : 35.026646,
+        "DEC_LAT" : -15.798707,
+        "INST_LOCAT" : "Ali Hassan Mwinyi",
+        "PHONE" : "(+265)1 870 411",
+        "EMAIL" : "mdc@poly.ac.mw",
+        "INS_ADDRES" : "Private Bag 303, BT 4",
+        "INS_FEES" : "150000",
+        "EDU_DOMAIN" : "Business Management, Business Management & Human Resources, Business Management & Marketing, Banking, Insurance",
+        "Tool" : "PC"
+      },
+      "geometry" : {
+        "x" : 35.026646,
+        "y" : -15.798707
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 2,
+        "OBJECTID" : 3,
+        "OBJECT_ID" : 3,
+        "INSTITUTIO" : "The Polytechnic Continuing Education Center (CEC)",
+        "DEC_LONG" : 35.027839999999998,
+        "DEC_LAT" : -15.801512000000001,
+        "INST_LOCAT" : "Chipembere Highway",
+        "PHONE" : "(+265)1 870 411",
+        "EMAIL" : " ",
+        "INS_ADDRES" : "Private Bag 303, Blantyre 4",
+        "INS_FEES" : "150,000 per semester, students to pay examination fees",
+        "EDU_DOMAIN" : "Community Development levels 4, 5,6, Human Resource Management, Business Management, Secretarial Administration, Journalism and Media Studies, Computing and Information System, Graphics and Media Studies, Certificate in Financial Accounting",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.027839999999998,
+        "y" : -15.801512000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 3,
+        "OBJECTID" : 4,
+        "OBJECT_ID" : 4,
+        "INSTITUTIO" : "National College of Information Technology",
+        "DEC_LONG" : 35.046154000000001,
+        "DEC_LAT" : -15.802573000000001,
+        "INST_LOCAT" : "Livingstone Ave",
+        "PHONE" : "(+265)1 870 411",
+        "EMAIL" : "nacitbt@globemw.net",
+        "INS_ADDRES" : "P.O Box 30319, Chichiri,Blantyre",
+        "INS_FEES" : "400000",
+        "EDU_DOMAIN" : "Computing level 4 & 5, Business Information Technology level 4 & 5, Bsc in Computing",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.046154000000001,
+        "y" : -15.802573000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 4,
+        "OBJECTID" : 5,
+        "OBJECT_ID" : 5,
+        "INSTITUTIO" : "Malawi College of accountancy",
+        "DEC_LONG" : 35.025019,
+        "DEC_LAT" : -15.802516000000001,
+        "INST_LOCAT" : "Chipembere Highway",
+        "PHONE" : "(+265)1 871411",
+        "EMAIL" : "mcabt@globemw.com",
+        "INS_ADDRES" : "P.O Box 30644, Chichiri, Blantyre",
+        "INS_FEES" : "900,000 per year",
+        "EDU_DOMAIN" : "Applied Accounting, Auditing, Business Management and Enterpreneurship, Marketing and Public Relations, Management Information Systems, Banking and Financial Services, Human Resources and  industrial Relations",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.025019,
+        "y" : -15.802516000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 5,
+        "OBJECTID" : 6,
+        "OBJECT_ID" : 6,
+        "INSTITUTIO" : "Blantyre international university",
+        "DEC_LONG" : 34.996986,
+        "DEC_LAT" : -15.746964,
+        "INST_LOCAT" : "Naperi",
+        "PHONE" : "(+265)1 1162354",
+        "EMAIL" : "info@biu-edu.com",
+        "INS_ADDRES" : "Private Bag 98, Blatyre",
+        "INS_FEES" : "700,000 per year",
+        "EDU_DOMAIN" : " Accounting and Finance, Actuarial Science, Banking and Finance, Business Administration, Economics, Entrepreneurship, Community and Development, Guidance and Counselling, Hotel Management, IT, Journalism and Law",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 34.996986,
+        "y" : -15.746964
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 6,
+        "OBJECTID" : 7,
+        "OBJECT_ID" : 7,
+        "INSTITUTIO" : "Sanwecka",
+        "DEC_LONG" : 35.030389999999997,
+        "DEC_LAT" : -15.799875,
+        "INST_LOCAT" : "Trade Fair",
+        "PHONE" : "(+265)99484949",
+        "EMAIL" : "sanwecka@gmail.com",
+        "INS_ADDRES" : "Private Bag 3498, Blantyre",
+        "INS_FEES" : "75,000 five weeks",
+        "EDU_DOMAIN" : "TEVETA certificate in computing, Phone Repairing",
+        "Tool" : "PC"
+      },
+      "geometry" : {
+        "x" : 35.030389999999997,
+        "y" : -15.799875
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 7,
+        "OBJECTID" : 8,
+        "OBJECT_ID" : 8,
+        "INSTITUTIO" : "College of medicine",
+        "DEC_LONG" : 35.015799999999999,
+        "DEC_LAT" : -15.801815,
+        "INST_LOCAT" : "Chipembere Highway",
+        "PHONE" : "(+265)1 871 911",
+        "EMAIL" : "registrar@medcol.mw",
+        "INS_ADDRES" : "Private Bag 360, Chichiri, Blantyre",
+        "INS_FEES" : "550,000 premaid, 350,000 continuing students",
+        "EDU_DOMAIN" : "Degree in Surgery, Bsc ib Medical Laboratory Pharmacy, Physiotherapy(HONS)",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.015799999999999,
+        "y" : -15.801815
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 8,
+        "OBJECTID" : 9,
+        "OBJECT_ID" : 9,
+        "INSTITUTIO" : "Malawi College Health Science",
+        "DEC_LONG" : 35.024498999999999,
+        "DEC_LAT" : -15.801665,
+        "INST_LOCAT" : "Chipembere Highway",
+        "PHONE" : "(+265)1 11870566",
+        "EMAIL" : "mchsbt@malawi.net",
+        "INS_ADDRES" : "Private Bag 396, Chichiri,  Blantyre",
+        "INS_FEES" : "govt sponsorship 180,000 per year, self sponsorship 500,000, residential 880,000 per year",
+        "EDU_DOMAIN" : "Diploma in Clinical Medicine, Certificate in Nursing and Midwifery",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.024498999999999,
+        "y" : -15.801665
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 9,
+        "OBJECTID" : 10,
+        "OBJECT_ID" : 10,
+        "INSTITUTIO" : "Kamuzu college of nursing",
+        "DEC_LONG" : 35.02073,
+        "DEC_LAT" : -15.718275999999999,
+        "INST_LOCAT" : "Queen Elizabeth Hospital",
+        "PHONE" : "(+265)1 751622",
+        "EMAIL" : "principal@kcn.unima.mw",
+        "INS_ADDRES" : "P.O Box 415, Blantyre",
+        "INS_FEES" : "400, 000",
+        "EDU_DOMAIN" : "Adult Health Nursing, Child Health Nursing, Community  Health Nursing, Mental Health and Psychiatic Nursing, Nursing and Midwifery,",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.02073,
+        "y" : -15.718275999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 10,
+        "OBJECTID" : 11,
+        "OBJECT_ID" : 11,
+        "INSTITUTIO" : "Skyway",
+        "DEC_LONG" : 0,
+        "DEC_LAT" : 0,
+        "INST_LOCAT" : "Ginnery corner",
+        "PHONE" : "(+265)999561004",
+        "EMAIL" : "info@skywayuniversity.info",
+        "INS_ADDRES" : "P/BAG 134, Blantyre, Malawi",
+        "INS_FEES" : "400000",
+        "EDU_DOMAIN" : "Nutrition and Food Security,  HIV & AIDS Management, Disaster Risk and Management, Public Health, Community Development, Human Resource Management, Accountancy and Business Administration",
+        "Tool" : "PC"
+      },
+      "geometry" : {
+        "x" : "NaN",
+        "y" : "NaN"
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 11,
+        "OBJECTID" : 12,
+        "OBJECT_ID" : 12,
+        "INSTITUTIO" : "Malawi institute of tourism",
+        "DEC_LONG" : 35.003441000000002,
+        "DEC_LAT" : -15.785674999999999,
+        "INST_LOCAT" : "Chilembwe road",
+        "PHONE" : "(+265)1 821866",
+        "EMAIL" : "happie.tama@gmail.com",
+        "INS_ADDRES" : "PO BOX 2673, Blantyre, Malawi",
+        "INS_FEES" : "480,000,",
+        "EDU_DOMAIN" : " Adminstrative and Secretarial Studies, Information and Communication Technology, Textile and Design, Electrical Engineering",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.003441000000002,
+        "y" : -15.785674999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 12,
+        "OBJECTID" : 13,
+        "OBJECT_ID" : 13,
+        "INSTITUTIO" : "Blantyre Institute of management",
+        "DEC_LONG" : 35.040939000000002,
+        "DEC_LAT" : -15.805071,
+        "INST_LOCAT" : "Chipembere highway",
+        "PHONE" : "(+265)1 874941",
+        "EMAIL" : "bcmbtb@yahoo.com",
+        "INS_ADDRES" : "P.0 BOX 60488, Chichiri,Blantyre, Malawi",
+        "INS_FEES" : "300000",
+        "EDU_DOMAIN" : " Hotel Operations, Travel and tourism management,  Hospitality Management, IATA/AFTAA n Proffessional Cookery",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.040939000000002,
+        "y" : -15.805071
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 13,
+        "OBJECTID" : 14,
+        "OBJECT_ID" : 14,
+        "INSTITUTIO" : "PACT",
+        "DEC_LONG" : 35.050761999999999,
+        "DEC_LAT" : -15.828227,
+        "INST_LOCAT" : "Limbe, Kenyatta Drive",
+        "PHONE" : "(+265)111556073",
+        "EMAIL" : "admissions@pactshoolsmw.com",
+        "INS_ADDRES" : "PO BOX 1651, Blantyre",
+        "INS_FEES" : "300000",
+        "EDU_DOMAIN" : " Business Management, Human Resources, Marketing",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.050761999999999,
+        "y" : -15.828227
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 14,
+        "OBJECTID" : 15,
+        "OBJECT_ID" : 15,
+        "INSTITUTIO" : "Blantyre Teachers college (BTC)",
+        "DEC_LONG" : 35.037992000000003,
+        "DEC_LAT" : -15.832226,
+        "INST_LOCAT" : "Soche",
+        "PHONE" : "(+265)995365269",
+        "EMAIL" : "registrar@btc.mw",
+        "INS_ADDRES" : "P/BAG 502, Blantyre, Malawi",
+        "INS_FEES" : "105,000 per year",
+        "EDU_DOMAIN" : " Banking, Human Resources, Marketing, Community Development, Procurement and Supply, Accounting",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.037992000000003,
+        "y" : -15.832226
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 15,
+        "OBJECTID" : 16,
+        "OBJECT_ID" : 16,
+        "INSTITUTIO" : "Soche Technical college",
+        "DEC_LONG" : 35.045414999999998,
+        "DEC_LAT" : -15.817595000000001,
+        "INST_LOCAT" : "Limbe , Chinyonga",
+        "PHONE" : "(+265)111403166",
+        "EMAIL" : "principal@sochetech.org",
+        "INS_ADDRES" : "P/BAG 515, Limbe",
+        "INS_FEES" : "250000",
+        "EDU_DOMAIN" : " Education",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.045414999999998,
+        "y" : -15.817595000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 16,
+        "OBJECTID" : 17,
+        "OBJECT_ID" : 17,
+        "INSTITUTIO" : "Kings and Angels – school of designs and tailoring",
+        "DEC_LONG" : 35.030506000000003,
+        "DEC_LAT" : -15.799939999999999,
+        "INST_LOCAT" : "Trade Fair",
+        "PHONE" : "(+265) 11140316",
+        "EMAIL" : " ",
+        "INS_ADDRES" : " ",
+        "INS_FEES" : "75000",
+        "EDU_DOMAIN" : "TEVETA Designing and Tailoring",
+        "Tool" : "PC"
+      },
+      "geometry" : {
+        "x" : 35.030506000000003,
+        "y" : -15.799939999999999
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 17,
+        "OBJECTID" : 18,
+        "OBJECT_ID" : 18,
+        "INSTITUTIO" : "University of Blantyre Synod",
+        "DEC_LONG" : 35.021118999999999,
+        "DEC_LAT" : -15.78468,
+        "INST_LOCAT" : "Hetherwick House, Blantyre",
+        "PHONE" : "(+265)999913762",
+        "EMAIL" : "info@ubsmw.com",
+        "INS_ADDRES" : "PO BOX 413, Blantyre",
+        "INS_FEES" : "masters 600,000, degree 400,000 per semester",
+        "EDU_DOMAIN" : "Arts and Theology, Commerce",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.021118999999999,
+        "y" : -15.78468
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 18,
+        "OBJECTID" : 19,
+        "OBJECT_ID" : 19,
+        "INSTITUTIO" : "Beehive",
+        "DEC_LONG" : 34.975923999999999,
+        "DEC_LAT" : -15.774480000000001,
+        "INST_LOCAT" : "Chilomoni",
+        "PHONE" : "(+265)111914756",
+        "EMAIL" : "info@beehevimw.org",
+        "INS_ADDRES" : "PO BOX 1668, Chilomoni, Blantyre, Malawi",
+        "INS_FEES" : "300000",
+        "EDU_DOMAIN" : "Tailoring and knitwear Training, Design and Construction, IT System support, Financial Accounting, CompTia Networking",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 34.975923999999999,
+        "y" : -15.774480000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 19,
+        "OBJECTID" : 20,
+        "OBJECT_ID" : 20,
+        "INSTITUTIO" : "MIJ",
+        "DEC_LONG" : 35.005070000000003,
+        "DEC_LAT" : -15.810496000000001,
+        "INST_LOCAT" : "Chitawira",
+        "PHONE" : "(+265)888664131",
+        "EMAIL" : "info@mijmw.com",
+        "INS_ADDRES" : "PO BOX 30165, Blantyre 3",
+        "INS_FEES" : "560 per year",
+        "EDU_DOMAIN" : "Journalism",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.005070000000003,
+        "y" : -15.810496000000001
+      }
+    },
+    {
+      "attributes" : {
+        "FID" : 20,
+        "OBJECTID" : 21,
+        "OBJECT_ID" : 21,
+        "INSTITUTIO" : "LUANAR blantyre campus ODL",
+        "DEC_LONG" : 35.004218999999999,
+        "DEC_LAT" : -15.788831,
+        "INST_LOCAT" : "Blantyre, township",
+        "PHONE" : "(+265)1277222",
+        "EMAIL" : "odl@bunda.luanar.mw",
+        "INS_ADDRES" : "PO BOX 219, Lilongwe",
+        "INS_FEES" : "300,000 per year",
+        "EDU_DOMAIN" : "Agribusiness Management, Agricultural Extension, Agricultural Economics, Agricultural Extensions,",
+        "Tool" : "GM"
+      },
+      "geometry" : {
+        "x" : 35.004218999999999,
+        "y" : -15.788831
+      }
+    }
+  ]
+}
